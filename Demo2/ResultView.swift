@@ -1,3 +1,12 @@
+//
+//  ResultView.swift
+//  Demo2
+//
+//  Created by SHIH-YING PAN on 2024/10/31.
+//
+
+import SwiftUI
+
 struct ResultView: View {
     @Environment(GameManager.self) private var gameManager
     @Environment(\.dismiss) private var dismiss
@@ -53,4 +62,10 @@ struct ResultView: View {
         case .draw: .orange
         }
     }
+}
+
+#Preview {
+    ResultView()
+        .environment(GameManager())
+        
 }

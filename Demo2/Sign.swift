@@ -1,3 +1,11 @@
+//
+//  Sign.swift
+//  Demo2
+//
+//  Created by SHIH-YING PAN on 2024/10/31.
+//
+
+
 enum Sign: String, CaseIterable, Identifiable {
     case rock = "👊"
     case paper = "✋"

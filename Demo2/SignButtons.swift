@@ -1,3 +1,12 @@
+//
+//  SignButtons.swift
+//  Demo2
+//
+//  Created by SHIH-YING PAN on 2024/10/31.
+//
+
+import SwiftUI
+
 struct SignButtons: View {
     @Environment(GameManager.self) private var gameManager
     @Binding var showResult: Bool

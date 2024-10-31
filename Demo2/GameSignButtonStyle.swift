@@ -1,3 +1,12 @@
+//
+//  GameSignButtonStyle.swift
+//  Demo2
+//
+//  Created by SHIH-YING PAN on 2024/10/31.
+//
+
+import SwiftUI
+
 struct GameSignButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
